@@ -1,0 +1,32 @@
+[0.517s] Invoking command in '/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pid_controller_pkg build --build-base /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build install --record /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/install.log --single-version-externally-managed install_data
+[0.687s] running egg_info
+[0.687s] creating build/pid_controller_pkg/pid_controller_pkg.egg-info
+[0.699s] writing build/pid_controller_pkg/pid_controller_pkg.egg-info/PKG-INFO
+[0.699s] writing dependency_links to build/pid_controller_pkg/pid_controller_pkg.egg-info/dependency_links.txt
+[0.699s] writing requirements to build/pid_controller_pkg/pid_controller_pkg.egg-info/requires.txt
+[0.699s] writing top-level names to build/pid_controller_pkg/pid_controller_pkg.egg-info/top_level.txt
+[0.699s] writing manifest file 'build/pid_controller_pkg/pid_controller_pkg.egg-info/SOURCES.txt'
+[0.724s] reading manifest file 'build/pid_controller_pkg/pid_controller_pkg.egg-info/SOURCES.txt'
+[0.724s] writing manifest file 'build/pid_controller_pkg/pid_controller_pkg.egg-info/SOURCES.txt'
+[0.725s] running build
+[0.725s] running build_py
+[0.725s] creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build
+[0.725s] creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib
+[0.725s] creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib/pid_controller_pkg
+[0.725s] copying pid_controller_pkg/__init__.py -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib/pid_controller_pkg
+[0.725s] running install
+[0.729s] running install_lib
+[0.742s] creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg
+[0.742s] copying /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib/pid_controller_pkg/__init__.py -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg
+[0.743s] byte-compiling /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg/__init__.py to __init__.cpython-312.pyc
+[0.743s] running install_data
+[0.743s] creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index
+[0.743s] creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index/resource_index
+[0.743s] creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index/resource_index/packages
+[0.743s] copying resource/pid_controller_pkg -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index/resource_index/packages
+[0.743s] copying package.xml -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/pid_controller_pkg
+[0.743s] running install_egg_info
+[0.756s] Copying build/pid_controller_pkg/pid_controller_pkg.egg-info to /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg-0.0.0-py3.12.egg-info
+[0.757s] running install_scripts
+[0.841s] writing list of installed files to '/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/install.log'
+[0.860s] Invoked command in '/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pid_controller_pkg build --build-base /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build install --record /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/install.log --single-version-externally-managed install_data

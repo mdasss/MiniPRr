@@ -1,0 +1,5 @@
+JointSimulatorPublisher:
+  ros__parameters:
+    noise: 0.0
+    K: 230.0
+    T: 0.15

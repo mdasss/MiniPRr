@@ -1,0 +1,30 @@
+running egg_info
+creating build/pid_controller_pkg/pid_controller_pkg.egg-info
+writing build/pid_controller_pkg/pid_controller_pkg.egg-info/PKG-INFO
+writing dependency_links to build/pid_controller_pkg/pid_controller_pkg.egg-info/dependency_links.txt
+writing requirements to build/pid_controller_pkg/pid_controller_pkg.egg-info/requires.txt
+writing top-level names to build/pid_controller_pkg/pid_controller_pkg.egg-info/top_level.txt
+writing manifest file 'build/pid_controller_pkg/pid_controller_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/pid_controller_pkg/pid_controller_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/pid_controller_pkg/pid_controller_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build
+creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib
+creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib/pid_controller_pkg
+copying pid_controller_pkg/__init__.py -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib/pid_controller_pkg
+running install
+running install_lib
+creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg
+copying /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/build/lib/pid_controller_pkg/__init__.py -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg
+byte-compiling /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index
+creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index/resource_index
+creating /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index/resource_index/packages
+copying resource/pid_controller_pkg -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/share/pid_controller_pkg
+running install_egg_info
+Copying build/pid_controller_pkg/pid_controller_pkg.egg-info to /home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/install/pid_controller_pkg/lib/python3.12/site-packages/pid_controller_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/drinkalotofwater/ros2_ws/src/pid_controller_pkg/build/pid_controller_pkg/install.log'

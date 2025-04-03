@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+
+
+<robot name="qube" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+     <xacro:arg name="baud_rate" default="115200"/>
+     <xacro:arg name="device" default="/dev/ttyACM0"/>
+     <xacro:arg name="simulation" default="true"/>
+
+    <xacro:property name="baud_rate" value="$(arg baud_rate)"/>
+    <xacro:property name="device" value="$(arg device)"/>
+    <xacro:property name="simulation" value="$(arg simulation)"/>
+
+
+    <xacro:include filename="$(find qube_driver)/ros2_control/qube_driver.ros2_control.xacro"/>
+    <xacro:include filename="$(find pid_controller_pkg_QUBE)/urdf/qube.macro.xacro"/>
+
+
+
+    <link name="world"/>
+
+    <xacro:qube prefix="qube"/>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <xacro:qube_driver_ros2_control
+        name="qube_driver"
+        prefix="qube_"
+        baud_rate="${baud_rate}"
+        device="${device}"
+        simulation="${simulation}" />
+
+</robot>
+
+
+
+
+
+

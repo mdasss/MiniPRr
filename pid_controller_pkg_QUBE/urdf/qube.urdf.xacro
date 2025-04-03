@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="qube" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+	<xacro:include filename="$(find pid_controller_pkg_QUBE)/urdf/qube.macro.xacro"/>
+  
+
+	<link name="world"/>
+	<xacro:qube prefix="qube"/>
+
+	<joint name="base_joint" type="fixed">
+      <parent link="world"/>
+      <child link="base_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+     </joint>
+
+</robot>
